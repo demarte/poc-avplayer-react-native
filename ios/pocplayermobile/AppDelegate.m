@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 
+//#import <JWPlayer_iOS_SDK/JWPlayerController.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
@@ -14,6 +15,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+//  [JWPlayerController setPlayerKey:@"ZJIGRI/BEm5HfMCRpjADsUe4iSxLUIADEbAI70UtAijOXk7MHEwRsV4v/bbEdXWn"];
   NSURL *jsCodeLocation;
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];

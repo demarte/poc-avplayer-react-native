@@ -1,3 +1,5 @@
 rootProject.name = 'pocplayermobile'
+include ':react-native-jw-media-player', ':jwplayer-core-3.7.0-javadoc', ':jwplayer-common-3.7.0-javadoc'
+project(':react-native-jw-media-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-jw-media-player/android')
 
 include ':app'
