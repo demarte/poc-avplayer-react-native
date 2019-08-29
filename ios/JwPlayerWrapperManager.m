@@ -30,7 +30,7 @@ RCT_EXPORT_MODULE();
 }
 
 RCT_EXPORT_VIEW_PROPERTY(file, NSString)
-RCT_EXPORT_VIEW_PROPERTY(onFullScreen, RCTDirectEventBlock);
+//RCT_EXPORT_VIEW_PROPERTY(onFullScreen, RCTDirectEventBlock);
 
 
 // Export constants

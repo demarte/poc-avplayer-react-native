@@ -21,14 +21,19 @@
   JWConfig *config;
 }
 
+- (void)setFile:(NSString *)file
+{
+  if (![file isEqual:_file]) {
+    config.file = [file copy];
+  }
+}
+
 - (instancetype)initWithEventDispatcher:(RCTEventDispatcher *)eventDispatcher
 {
   if ((self = [super init])) {
     _eventDispatcher = eventDispatcher;
     config = [[JWConfig alloc] init];
 //    config.file = @"https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8";
-//    config.file = @"https://aulapp-dev-media-convert.s3.amazonaws.com/output/41ebf52c-6251-4e66-abea-a3e1d445df21110-hls.m3u8";
-    config.file = @"https://196skyfiregce-vimeo.akamaized.net/exp=1566926153~acl=%2F182592195%2F%2A~hmac=064516dd5bbcacfc40255c7caff9c2576011c706aae9719d0c45c778eb8ac5f5/182592195/video/599562015,1301281825,599562019,599562018,599562016/master.m3u8";
     config.controls = YES;  //default
     config.playbackRateControls = TRUE;
     config.audioSwitchingEnabled = TRUE;

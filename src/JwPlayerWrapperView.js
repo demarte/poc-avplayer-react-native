@@ -10,11 +10,13 @@ export default class JwPlayerWrapperView extends Component {
   };
 
   render() {
+    console.log(JSON.stringify(this.props));
+
     return (
       <JwPlayerWrapper
         ref={e => (this._root = e)}
         {...this.props}
-        // file={"https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8"}
+        file={"https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8"}
         onFullScreen={event =>
           this.props.onFullScreen && this.props.onFullScreen(event.nativeEvent)
         }
@@ -24,7 +26,8 @@ export default class JwPlayerWrapperView extends Component {
 }
 
 JwPlayerWrapperView.propTypes = {
-  zoomEnabled: PropTypes.string
+  // zoomEnabled: PropTypes.string,
+  file: PropTypes.string
 };
 
 const JwPlayerWrapper = requireNativeComponent(
