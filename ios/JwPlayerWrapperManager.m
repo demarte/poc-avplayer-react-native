@@ -29,16 +29,15 @@ RCT_EXPORT_MODULE();
   return _bridge.uiManager.methodQueue;
 }
 
-RCT_EXPORT_VIEW_PROPERTY(file, NSString)
+RCT_EXPORT_VIEW_PROPERTY(file, NSString);
 //RCT_EXPORT_VIEW_PROPERTY(onFullScreen, RCTDirectEventBlock);
 
 
 // Export constants
-// https://facebook.github.io/react-native/releases/next/docs/native-modules-ios.html#exporting-constants
-- (NSDictionary *)constantsToExport
-{
-  return @{
-           @"EXAMPLE": @"example"
-           };
-}
+//- (NSDictionary *)constantsToExport
+//{
+//  return @{
+//           @"EXAMPLE": @"example"
+//           };
+//}
 @end

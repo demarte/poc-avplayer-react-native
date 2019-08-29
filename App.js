@@ -29,37 +29,14 @@ const videoHeight = width / (16 / 9);
 export default class App extends Component {
   state = {
     widthX: videoWidth,
-    heightX: videoHeight,
-    fullScreen: false
-  };
-
-  onFullScreen = event => {
-    console.log("onFullScreen: ", event.fullScreen);
-    this.setState({ fullScreen: event.fullScreen });
-    if (event.fullScreen) {
-      this.setState({
-        heightX: width,
-        widthX: height,
-        fullScreen: true
-      });
-    } else {
-      this.setState({
-        heightX: videoHeight,
-        widthX: videoWidth,
-        fullScreen: false
-      });
-    }
+    heightX: videoHeight
   };
 
   render() {
     const { heightX, widthX } = this.state;
     return (
       <View style={styles.container}>
-        <JwPlayerWrapperView
-          ref={ref => (this.player = ref)}
-          style={{ height: heightX, width: widthX }}
-          onFullScreen={this.onFullScreen}
-        />
+        <JwPlayerWrapperView style={{ height: heightX, width: widthX }} />
       </View>
     );
   }

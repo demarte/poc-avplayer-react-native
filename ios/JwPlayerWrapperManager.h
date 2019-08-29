@@ -7,8 +7,6 @@
 #import “React/RCTViewManager.h” // Required when used as a Pod in a Swift project
 #endif
 
-// Subclass your view manager off the RCTViewManager
-// http://facebook.github.io/react-native/docs/native-components-ios.html#ios-mapview-example
 @interface JwPlayerWrapperManager : RCTViewManager
 
 @end
