@@ -38,7 +38,6 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* pocplayermobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* pocplayermobileTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		6E0AF4548F22422A81B3B82C /* libRNJWPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3E1A27049F46CC9F22FD62 /* libRNJWPlayer.a */; };
 		7ADF3A9C50B1DB8DE9D8B66E /* libPods-pocplayermobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A501F3BC90F46C44AF416C53 /* libPods-pocplayermobile.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		85EEFFF9108C3DE24EA74BCE /* libPods-pocplayermobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B1F5DCF3A3C6300C14A378 /* libPods-pocplayermobile-tvOSTests.a */; };
@@ -405,7 +404,6 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				7ADF3A9C50B1DB8DE9D8B66E /* libPods-pocplayermobile.a in Frameworks */,
-				6E0AF4548F22422A81B3B82C /* libRNJWPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
