@@ -4723,11 +4723,6 @@ react-is@^16.6.3, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
 
-react-native-jw-media-player@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/react-native-jw-media-player/-/react-native-jw-media-player-0.1.4.tgz#766fe7f5718ef8bc614e125130aca2944470d3f9"
-  integrity sha512-sh++kbP7E457h1o8pxP1mEBH9XVbulPvp2WQktR3WF3g47gcftWQfKtowF/eRwitDYL3zBg/Hb775Tc4j0YY/w==
-
 react-native@0.58.6:
   version "0.58.6"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.58.6.tgz#a6d273cd2f51b0e3b141dad5f19622e0000497b3"

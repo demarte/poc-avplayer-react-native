@@ -18,8 +18,9 @@
 // }
 
 import React, { Component } from "react";
-import { StyleSheet, View, Dimensions } from "react-native";
+import { StyleSheet, View, Dimensions, Platform, Text } from "react-native";
 import JwPlayerWrapperView from "./src/JwPlayerWrapperView";
+import AndroidNativePlayer from "./src/AndroidNativePlayer";
 
 let { width, height } = Dimensions.get("window");
 
@@ -33,12 +34,16 @@ export default class App extends Component {
   };
 
   render() {
+    return <View style={styles.container}>{this.renderPlayer()}</View>;
+  }
+
+  renderPlayer() {
     const { heightX, widthX } = this.state;
-    return (
-      <View style={styles.container}>
-        <JwPlayerWrapperView style={{ height: heightX, width: widthX }} />
-      </View>
-    );
+    if (Platform.OS === "ios") {
+      return <JwPlayerWrapperView style={{ height: heightX, width: widthX }} />;
+    } else {
+      return <AndroidNativePlayer style={{ height: heightX, width: widthX }} />;
+    }
   }
 }
 

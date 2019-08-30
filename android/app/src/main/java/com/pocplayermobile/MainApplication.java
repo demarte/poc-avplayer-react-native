@@ -3,7 +3,6 @@ package com.pocplayermobile;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import net.gamesofton.rnjwplayer.RNJWPlayerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -24,7 +23,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNJWPlayerPackage()
+          new NativePlayerPackage()
       );
     }
 
