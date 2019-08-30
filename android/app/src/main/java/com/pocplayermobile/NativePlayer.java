@@ -21,24 +21,34 @@ import com.google.android.exoplayer2.util.Util;
 
 public class NativePlayer extends PlayerView {
 
+    public String file;
+    private Context context;
+
+    public void setFile (String file) {
+        this.file = file;
+        createPlayer();
+    }
+
     public NativePlayer(Context context) {
         super(context);
-        SimpleExoPlayer player = ExoPlayerFactory.newSimpleInstance(context);
+        this.context = context;
+    }
 
+    private void createPlayer() {
+        SimpleExoPlayer player = ExoPlayerFactory.newSimpleInstance(this.context);
 
         this.setControllerAutoShow(true);
 
         this.setPlayer(player);
 
-        Uri uri = Uri.parse("https://content.jwplatform.com/manifests/vM7nH0Kl.m3u8");
+        Uri uri = Uri.parse(this.file);
 
-        DataSource.Factory dataSourceFactory = new DefaultDataSourceFactory(context, Util.getUserAgent(context, "com.example.testplayer"));
+        DataSource.Factory dataSourceFactory = new DefaultDataSourceFactory(this.context, Util.getUserAgent(this.context, "com.example.testplayer"));
 
 
         MediaSource mediaSource = buildMediaSource(uri, null, dataSourceFactory);
 
         player.prepare(mediaSource);
-
     }
 
     private MediaSource buildMediaSource(Uri uri, @Nullable String overrideExtension, DataSource.Factory dataSourceFactory) {
