@@ -26,8 +26,6 @@
 		2C79F33C2310661500125E94 /* JwPlayerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C79F33B2310661500125E94 /* JwPlayerWrapper.m */; };
 		2C79F33F231066B700125E94 /* JwPlayerWrapperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C79F33E231066B700125E94 /* JwPlayerWrapperManager.m */; };
 		2C79F340231067F700125E94 /* JWPlayer_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C79F28523102B3500125E94 /* JWPlayer_iOS_SDK.framework */; };
-		2C79F343231404F700125E94 /* JwPlayerSwiftWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C79F342231404F700125E94 /* JwPlayerSwiftWrapper.swift */; };
-		2C79F345231407B500125E94 /* JwPlayerSwiftWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C79F344231407B500125E94 /* JwPlayerSwiftWrapper.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -362,9 +360,6 @@
 		2C79F33B2310661500125E94 /* JwPlayerWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JwPlayerWrapper.m; sourceTree = "<group>"; };
 		2C79F33D231066B700125E94 /* JwPlayerWrapperManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwPlayerWrapperManager.h; sourceTree = "<group>"; };
 		2C79F33E231066B700125E94 /* JwPlayerWrapperManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JwPlayerWrapperManager.m; sourceTree = "<group>"; };
-		2C79F341231404F700125E94 /* pocplayermobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pocplayermobile-Bridging-Header.h"; sourceTree = "<group>"; };
-		2C79F342231404F700125E94 /* JwPlayerSwiftWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwPlayerSwiftWrapper.swift; sourceTree = "<group>"; };
-		2C79F344231407B500125E94 /* JwPlayerSwiftWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JwPlayerSwiftWrapper.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* pocplayermobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pocplayermobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* pocplayermobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocplayermobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -538,9 +533,6 @@
 				2C79F33B2310661500125E94 /* JwPlayerWrapper.m */,
 				2C79F33D231066B700125E94 /* JwPlayerWrapperManager.h */,
 				2C79F33E231066B700125E94 /* JwPlayerWrapperManager.m */,
-				2C79F341231404F700125E94 /* pocplayermobile-Bridging-Header.h */,
-				2C79F344231407B500125E94 /* JwPlayerSwiftWrapper.m */,
-				2C79F342231404F700125E94 /* JwPlayerSwiftWrapper.swift */,
 			);
 			name = pocplayermobile;
 			sourceTree = "<group>";
@@ -1316,8 +1308,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				2C79F345231407B500125E94 /* JwPlayerSwiftWrapper.m in Sources */,
-				2C79F343231404F700125E94 /* JwPlayerSwiftWrapper.swift in Sources */,
 				2C79F33F231066B700125E94 /* JwPlayerWrapperManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				2C79F33C2310661500125E94 /* JwPlayerWrapper.m in Sources */,
@@ -1372,7 +1362,6 @@
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = SJGU7R328W;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1403,7 +1392,6 @@
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = SJGU7R328W;
