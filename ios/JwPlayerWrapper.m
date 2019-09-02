@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "JwPlayerWrapper.h"
-#import <JWPlayer_iOS_SDK/JWPlayerController.h>
 
 
 // import RCTEventDispatcher

@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <AVKit/AVKit.h>
-#import <JWPlayer_iOS_SDK/JWPlayerController.h>
 
 @class RCTEventDispatcher;
 

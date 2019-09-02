@@ -6,32 +6,13 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		19D02B64F37DB93D5D9E91894A9EAADC /* JWPlayer-SDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 037331DAE1EDE0E984EAAC1382F2056D /* Build configuration list for PBXAggregateTarget "JWPlayer-SDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = "JWPlayer-SDK";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		5607D6896567DAA276E120ED0F35F739 /* Pods-pocplayermobile-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C25C444EA57AE546E387B4650A30E4 /* Pods-pocplayermobile-tvOS-dummy.m */; };
-		D396FE04E1FA798E834210FB42BAC8C0 /* Pods-pocplayermobile-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8A12669B38602847848A27C3A056CA /* Pods-pocplayermobile-tvOSTests-dummy.m */; };
-		F3151B5A755EA37175B1836F27C33FDE /* Pods-pocplayermobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B53529E761734F3F28496EA1519408EF /* Pods-pocplayermobile-dummy.m */; };
+		5607D6896567DAA276E120ED0F35F739 /* Pods-pocplayermobile-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41610CFAB8F4C61ACD81CDEC733D32F4 /* Pods-pocplayermobile-tvOS-dummy.m */; };
+		A3EA7DC103E4DE1CE6D9DB5A55F18828 /* Pods-pocplayermobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245801BDA17A3562613239AD7599E896 /* Pods-pocplayermobile-dummy.m */; };
+		D396FE04E1FA798E834210FB42BAC8C0 /* Pods-pocplayermobile-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5267A9F1EC8279A0CB11C948FB62F2 /* Pods-pocplayermobile-tvOSTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7248686EC46C73AC40F88249F53F4688 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19D02B64F37DB93D5D9E91894A9EAADC;
-			remoteInfo = "JWPlayer-SDK";
-		};
 		D547DD815CB1285A0FBB1C9709764050 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -42,32 +23,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062367F7B03DC1AE4074BA6CDD0D37E0 /* Pods-pocplayermobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		1D149DADB4F2A1434A0281A5FDDA4A2D /* Pods-pocplayermobile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocplayermobile-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C39DD2FA658695968233927A69248CA /* Pods-pocplayermobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile.release.xcconfig"; sourceTree = "<group>"; };
-		3F45CBEE4F5F07D24F967E0C01838320 /* Pods-pocplayermobile-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocplayermobile-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53F247A86B9CCD771F58478CB3A04CF6 /* Pods-pocplayermobile-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocplayermobile-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		59B855E0CE3C1CEDD0C523B2A8D9B722 /* JWPlayer_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JWPlayer_iOS_SDK.framework; sourceTree = "<group>"; };
-		656936E7B53EB89CDE9FE04B5E8CDDBA /* Pods-pocplayermobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		68682912F22B28848775406B5BE7F143 /* JWPlayer-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JWPlayer-SDK.xcconfig"; sourceTree = "<group>"; };
+		245801BDA17A3562613239AD7599E896 /* Pods-pocplayermobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocplayermobile-dummy.m"; sourceTree = "<group>"; };
+		34878CD179E220E3494C3D96FAF02504 /* Pods-pocplayermobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile.release.xcconfig"; sourceTree = "<group>"; };
+		41610CFAB8F4C61ACD81CDEC733D32F4 /* Pods-pocplayermobile-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocplayermobile-tvOS-dummy.m"; sourceTree = "<group>"; };
+		44CD26F3121F70C64069DDC86ABFE08E /* Pods-pocplayermobile-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocplayermobile-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		569CC01A5574FECD9C8A737F6C4D8173 /* Pods-pocplayermobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D15BDA859CA0F8ED60C5C420CFAA80D /* libPods-pocplayermobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pocplayermobile-tvOS.a"; path = "libPods-pocplayermobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E97A7B0F521A7CF0CE52E2DCF965DF1 /* Pods-pocplayermobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7294C7F4CEADD3F6482B8968494F89D7 /* libPods-pocplayermobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pocplayermobile-tvOSTests.a"; path = "libPods-pocplayermobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B5F065380DBE5F153652DE2A90DC634 /* Pods-pocplayermobile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocplayermobile-acknowledgements.plist"; sourceTree = "<group>"; };
-		935B3166905E502A0F079E1AAE6E5EB4 /* Pods-pocplayermobile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pocplayermobile-frameworks.sh"; sourceTree = "<group>"; };
-		9641A1D3C453C3BFCFF31BBA6A7F35DA /* Pods-pocplayermobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE87ED5081B4B44DC04492486B29794 /* Pods-pocplayermobile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocplayermobile-acknowledgements.plist"; sourceTree = "<group>"; };
+		9782EC45A08EB567BD08457B38C04DFF /* Pods-pocplayermobile-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocplayermobile-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AAECD866E2A6964F9384F70277F305A6 /* Pods-pocplayermobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B53529E761734F3F28496EA1519408EF /* Pods-pocplayermobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocplayermobile-dummy.m"; sourceTree = "<group>"; };
-		B7C40AA8ED7711DFA530BD8AC8EDA099 /* Pods-pocplayermobile-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocplayermobile-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E327A53390005FEAA087D8B3820CA39 /* Pods-pocplayermobile-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocplayermobile-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		A85322F481B4D07A6E27FDB09728FEC2 /* Pods-pocplayermobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		BB899BB0F143537BEF0B54F5E40DE9B2 /* Pods-pocplayermobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C73375BE82082589A1A8D836C19E7D1A /* Pods-pocplayermobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4FB9FCF9C01670A554FD0549A72CEE /* Pods-pocplayermobile-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pocplayermobile-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D06C5481FD7AD4450DAAF38D15F33A79 /* Pods-pocplayermobile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocplayermobile-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEB16B07C9DCD5E95B12B5092ED172FC /* libPods-pocplayermobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pocplayermobile.a"; path = "libPods-pocplayermobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0CDE65FC80A3609DC4A3A188CDA0803 /* Pods-pocplayermobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pocplayermobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		E4C25C444EA57AE546E387B4650A30E4 /* Pods-pocplayermobile-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocplayermobile-tvOS-dummy.m"; sourceTree = "<group>"; };
-		EF8A12669B38602847848A27C3A056CA /* Pods-pocplayermobile-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocplayermobile-tvOSTests-dummy.m"; sourceTree = "<group>"; };
-		FFE246207F72BCD40228F21FB8F6DAAB /* Pods-pocplayermobile-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pocplayermobile-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB5267A9F1EC8279A0CB11C948FB62F2 /* Pods-pocplayermobile-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pocplayermobile-tvOSTests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		505A0BB7A0FFF5918E54382AA028FA0D /* Frameworks */ = {
+		9BBDD8AA9DEA859315DF360F4B758333 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,6 +69,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B62840C3BD8DB7152BF17C9A3E3E321 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F18DB514C7A4677714745B7A82CCA17 /* Pods-pocplayermobile */,
+				4D5DEE41B29B5CAAC68EA2B602AA873A /* Pods-pocplayermobile-tvOS */,
+				46D8B3F2CB91AA7732A2FD92891FAC2C /* Pods-pocplayermobile-tvOSTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F18DB514C7A4677714745B7A82CCA17 /* Pods-pocplayermobile */ = {
+			isa = PBXGroup;
+			children = (
+				D06C5481FD7AD4450DAAF38D15F33A79 /* Pods-pocplayermobile-acknowledgements.markdown */,
+				8BE87ED5081B4B44DC04492486B29794 /* Pods-pocplayermobile-acknowledgements.plist */,
+				245801BDA17A3562613239AD7599E896 /* Pods-pocplayermobile-dummy.m */,
+				C73375BE82082589A1A8D836C19E7D1A /* Pods-pocplayermobile.debug.xcconfig */,
+				34878CD179E220E3494C3D96FAF02504 /* Pods-pocplayermobile.release.xcconfig */,
+			);
+			name = "Pods-pocplayermobile";
+			path = "Target Support Files/Pods-pocplayermobile";
+			sourceTree = "<group>";
+		};
 		30B63E336717803D960EA0072C15F68F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,52 +102,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A1E5CEF01B8011AD3A1C557E986FB5C /* Pods-pocplayermobile */ = {
+		46D8B3F2CB91AA7732A2FD92891FAC2C /* Pods-pocplayermobile-tvOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D149DADB4F2A1434A0281A5FDDA4A2D /* Pods-pocplayermobile-acknowledgements.markdown */,
-				7B5F065380DBE5F153652DE2A90DC634 /* Pods-pocplayermobile-acknowledgements.plist */,
-				B53529E761734F3F28496EA1519408EF /* Pods-pocplayermobile-dummy.m */,
-				935B3166905E502A0F079E1AAE6E5EB4 /* Pods-pocplayermobile-frameworks.sh */,
-				9641A1D3C453C3BFCFF31BBA6A7F35DA /* Pods-pocplayermobile.debug.xcconfig */,
-				3C39DD2FA658695968233927A69248CA /* Pods-pocplayermobile.release.xcconfig */,
-			);
-			name = "Pods-pocplayermobile";
-			path = "Target Support Files/Pods-pocplayermobile";
-			sourceTree = "<group>";
-		};
-		8AA76428B0D5A78544CF49185B04DD27 /* Pods-pocplayermobile-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				3F45CBEE4F5F07D24F967E0C01838320 /* Pods-pocplayermobile-tvOS-acknowledgements.markdown */,
-				B7C40AA8ED7711DFA530BD8AC8EDA099 /* Pods-pocplayermobile-tvOS-acknowledgements.plist */,
-				E4C25C444EA57AE546E387B4650A30E4 /* Pods-pocplayermobile-tvOS-dummy.m */,
-				062367F7B03DC1AE4074BA6CDD0D37E0 /* Pods-pocplayermobile-tvOS.debug.xcconfig */,
-				656936E7B53EB89CDE9FE04B5E8CDDBA /* Pods-pocplayermobile-tvOS.release.xcconfig */,
-			);
-			name = "Pods-pocplayermobile-tvOS";
-			path = "Target Support Files/Pods-pocplayermobile-tvOS";
-			sourceTree = "<group>";
-		};
-		A3A7D44084D4208941F026FBA309A788 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FCE9CE6410B29FB9FBF3A1A9D495090C /* JWPlayer-SDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C67EBA106758CF65C9E497B6216FF708 /* Pods-pocplayermobile-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				FFE246207F72BCD40228F21FB8F6DAAB /* Pods-pocplayermobile-tvOSTests-acknowledgements.markdown */,
-				53F247A86B9CCD771F58478CB3A04CF6 /* Pods-pocplayermobile-tvOSTests-acknowledgements.plist */,
-				EF8A12669B38602847848A27C3A056CA /* Pods-pocplayermobile-tvOSTests-dummy.m */,
-				AAECD866E2A6964F9384F70277F305A6 /* Pods-pocplayermobile-tvOSTests.debug.xcconfig */,
-				E0CDE65FC80A3609DC4A3A188CDA0803 /* Pods-pocplayermobile-tvOSTests.release.xcconfig */,
+				9782EC45A08EB567BD08457B38C04DFF /* Pods-pocplayermobile-tvOSTests-acknowledgements.markdown */,
+				CC4FB9FCF9C01670A554FD0549A72CEE /* Pods-pocplayermobile-tvOSTests-acknowledgements.plist */,
+				EB5267A9F1EC8279A0CB11C948FB62F2 /* Pods-pocplayermobile-tvOSTests-dummy.m */,
+				BB899BB0F143537BEF0B54F5E40DE9B2 /* Pods-pocplayermobile-tvOSTests.debug.xcconfig */,
+				569CC01A5574FECD9C8A737F6C4D8173 /* Pods-pocplayermobile-tvOSTests.release.xcconfig */,
 			);
 			name = "Pods-pocplayermobile-tvOSTests";
 			path = "Target Support Files/Pods-pocplayermobile-tvOSTests";
+			sourceTree = "<group>";
+		};
+		4D5DEE41B29B5CAAC68EA2B602AA873A /* Pods-pocplayermobile-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				44CD26F3121F70C64069DDC86ABFE08E /* Pods-pocplayermobile-tvOS-acknowledgements.markdown */,
+				9E327A53390005FEAA087D8B3820CA39 /* Pods-pocplayermobile-tvOS-acknowledgements.plist */,
+				41610CFAB8F4C61ACD81CDEC733D32F4 /* Pods-pocplayermobile-tvOS-dummy.m */,
+				6E97A7B0F521A7CF0CE52E2DCF965DF1 /* Pods-pocplayermobile-tvOS.debug.xcconfig */,
+				A85322F481B4D07A6E27FDB09728FEC2 /* Pods-pocplayermobile-tvOS.release.xcconfig */,
+			);
+			name = "Pods-pocplayermobile-tvOS";
+			path = "Target Support Files/Pods-pocplayermobile-tvOS";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -154,9 +133,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				A3A7D44084D4208941F026FBA309A788 /* Pods */,
 				30B63E336717803D960EA0072C15F68F /* Products */,
-				F548B6FD1F31583C35ECC1D98E9E6709 /* Targets Support Files */,
+				2B62840C3BD8DB7152BF17C9A3E3E321 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,54 +145,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DEE1170BFD072E0EC074C9CD2EB38AA2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				59B855E0CE3C1CEDD0C523B2A8D9B722 /* JWPlayer_iOS_SDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F548B6FD1F31583C35ECC1D98E9E6709 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4A1E5CEF01B8011AD3A1C557E986FB5C /* Pods-pocplayermobile */,
-				8AA76428B0D5A78544CF49185B04DD27 /* Pods-pocplayermobile-tvOS */,
-				C67EBA106758CF65C9E497B6216FF708 /* Pods-pocplayermobile-tvOSTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FCE7C5C3C9D055231F257CE2F3C038F7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				68682912F22B28848775406B5BE7F143 /* JWPlayer-SDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JWPlayer-SDK";
-			sourceTree = "<group>";
-		};
-		FCE9CE6410B29FB9FBF3A1A9D495090C /* JWPlayer-SDK */ = {
-			isa = PBXGroup;
-			children = (
-				DEE1170BFD072E0EC074C9CD2EB38AA2 /* Frameworks */,
-				FCE7C5C3C9D055231F257CE2F3C038F7 /* Support Files */,
-			);
-			name = "JWPlayer-SDK";
-			path = "JWPlayer-SDK";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		00174778C5AE53D7D6B03FDF55A09886 /* Headers */ = {
+		62C7D615FF043A6B5674D061A3EC746B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C7D615FF043A6B5674D061A3EC746B /* Headers */ = {
+		872EE2AE5EF66404773B46361090319E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,6 +189,23 @@
 			productReference = 6D15BDA859CA0F8ED60C5C420CFAA80D /* libPods-pocplayermobile-tvOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		4F6304186085813851E8C73E978E8670 /* Pods-pocplayermobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6D9799C009B2F81FA00F248F7BE01 /* Build configuration list for PBXNativeTarget "Pods-pocplayermobile" */;
+			buildPhases = (
+				872EE2AE5EF66404773B46361090319E /* Headers */,
+				4DD17E95B3EC8DE660659C19E711D0ED /* Sources */,
+				9BBDD8AA9DEA859315DF360F4B758333 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pocplayermobile";
+			productName = "Pods-pocplayermobile";
+			productReference = DEB16B07C9DCD5E95B12B5092ED172FC /* libPods-pocplayermobile.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		8EF2F8469F6A43B2102A5325BAA16684 /* Pods-pocplayermobile-tvOSTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E31E3F99E7737791B300A0B496F27D08 /* Build configuration list for PBXNativeTarget "Pods-pocplayermobile-tvOSTests" */;
@@ -264,24 +222,6 @@
 			name = "Pods-pocplayermobile-tvOSTests";
 			productName = "Pods-pocplayermobile-tvOSTests";
 			productReference = 7294C7F4CEADD3F6482B8968494F89D7 /* libPods-pocplayermobile-tvOSTests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C7CDC1C7B3ED50B5D32AE78B83E69768 /* Pods-pocplayermobile */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A5AA6E57E438A449EC97898050F9DB23 /* Build configuration list for PBXNativeTarget "Pods-pocplayermobile" */;
-			buildPhases = (
-				00174778C5AE53D7D6B03FDF55A09886 /* Headers */,
-				0CBCA38EF74F38363E651D306E505F87 /* Sources */,
-				505A0BB7A0FFF5918E54382AA028FA0D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1EFCF99DB09F2ED0E0AB45D2406020C0 /* PBXTargetDependency */,
-			);
-			name = "Pods-pocplayermobile";
-			productName = "Pods-pocplayermobile";
-			productReference = DEB16B07C9DCD5E95B12B5092ED172FC /* libPods-pocplayermobile.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -305,8 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19D02B64F37DB93D5D9E91894A9EAADC /* JWPlayer-SDK */,
-				C7CDC1C7B3ED50B5D32AE78B83E69768 /* Pods-pocplayermobile */,
+				4F6304186085813851E8C73E978E8670 /* Pods-pocplayermobile */,
 				45E4273CC78FE8D1A59054B4F2645338 /* Pods-pocplayermobile-tvOS */,
 				8EF2F8469F6A43B2102A5325BAA16684 /* Pods-pocplayermobile-tvOSTests */,
 			);
@@ -314,19 +253,19 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CBCA38EF74F38363E651D306E505F87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3151B5A755EA37175B1836F27C33FDE /* Pods-pocplayermobile-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26F9F926C96A62354DAEE121797FABE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5607D6896567DAA276E120ED0F35F739 /* Pods-pocplayermobile-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD17E95B3EC8DE660659C19E711D0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EA7DC103E4DE1CE6D9DB5A55F18828 /* Pods-pocplayermobile-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,12 +280,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1EFCF99DB09F2ED0E0AB45D2406020C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "JWPlayer-SDK";
-			target = 19D02B64F37DB93D5D9E91894A9EAADC /* JWPlayer-SDK */;
-			targetProxy = 7248686EC46C73AC40F88249F53F4688 /* PBXContainerItemProxy */;
-		};
 		4098E549810CA34094DBAC6F71AE721A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-pocplayermobile-tvOS";
@@ -358,7 +291,7 @@
 /* Begin XCBuildConfiguration section */
 		2675E29CA27FE53540D0228DF66BC627 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAECD866E2A6964F9384F70277F305A6 /* Pods-pocplayermobile-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = BB899BB0F143537BEF0B54F5E40DE9B2 /* Pods-pocplayermobile-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -376,9 +309,30 @@
 			};
 			name = Debug;
 		};
+		2CE67BC1393E970230542C766BB936F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73375BE82082589A1A8D836C19E7D1A /* Pods-pocplayermobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		3165AF1A51D3F57AE4C73D4C9A5BA6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0CDE65FC80A3609DC4A3A188CDA0803 /* Pods-pocplayermobile-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 569CC01A5574FECD9C8A737F6C4D8173 /* Pods-pocplayermobile-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -397,22 +351,9 @@
 			};
 			name = Release;
 		};
-		4496956629B4FF426CDA1F2FB1F8C0B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68682912F22B28848775406B5BE7F143 /* JWPlayer-SDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		5B78D513E45C5C717C6833C6790B5E66 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 656936E7B53EB89CDE9FE04B5E8CDDBA /* Pods-pocplayermobile-tvOS.release.xcconfig */;
+			baseConfigurationReference = A85322F481B4D07A6E27FDB09728FEC2 /* Pods-pocplayermobile-tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -433,7 +374,7 @@
 		};
 		630D423130EA8F58356CE99025AC8159 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 062367F7B03DC1AE4074BA6CDD0D37E0 /* Pods-pocplayermobile-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6E97A7B0F521A7CF0CE52E2DCF965DF1 /* Pods-pocplayermobile-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -512,44 +453,9 @@
 			};
 			name = Release;
 		};
-		6EACB529B60118127734A1BDA3C645CD /* Release */ = {
+		BD34FFC2BFE5F84DF97EB90933237CDC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68682912F22B28848775406B5BE7F143 /* JWPlayer-SDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		99A002416FFEB75A5E5B2E1E70AC5B6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9641A1D3C453C3BFCFF31BBA6A7F35DA /* Pods-pocplayermobile.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BF365E12A8F3FFA104119BF7C630B63A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C39DD2FA658695968233927A69248CA /* Pods-pocplayermobile.release.xcconfig */;
+			baseConfigurationReference = 34878CD179E220E3494C3D96FAF02504 /* Pods-pocplayermobile.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -637,15 +543,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		037331DAE1EDE0E984EAAC1382F2056D /* Build configuration list for PBXAggregateTarget "JWPlayer-SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4496956629B4FF426CDA1F2FB1F8C0B2 /* Debug */,
-				6EACB529B60118127734A1BDA3C645CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2511AF7A773CC067CC5809809006765C /* Build configuration list for PBXNativeTarget "Pods-pocplayermobile-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -664,11 +561,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5AA6E57E438A449EC97898050F9DB23 /* Build configuration list for PBXNativeTarget "Pods-pocplayermobile" */ = {
+		BFF6D9799C009B2F81FA00F248F7BE01 /* Build configuration list for PBXNativeTarget "Pods-pocplayermobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99A002416FFEB75A5E5B2E1E70AC5B6E /* Debug */,
-				BF365E12A8F3FFA104119BF7C630B63A /* Release */,
+				2CE67BC1393E970230542C766BB936F8 /* Debug */,
+				BD34FFC2BFE5F84DF97EB90933237CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,8 +7,6 @@ target 'pocplayermobile' do
 
   # Pods for pocplayermobile
 
-  pod 'JWPlayer-SDK', '~> 3.6.1'
-
 end
 
 target 'pocplayermobile-tvOS' do
