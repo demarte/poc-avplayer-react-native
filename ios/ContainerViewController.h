@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, strong) AVPlayerViewController *playerViewController;
 @property (nonatomic, strong) AVPlayer *player;
 @property (nonatomic, strong) NSURL *videoURL;
+@property (nonatomic, strong) UIActivityIndicatorView *spinner;
 
 @end
 
