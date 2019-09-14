@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_media_frame_player"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="#ff0000">
+
+        <com.pocplayermobile.NativePlayer
+            android:id="@+id/exoplayer"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            />
+
+    </FrameLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44000000"
+        android:id="@+id/progress_bar"
+        android:clickable="true"
+        android:padding="50dp">
+    </ProgressBar>
+
+</RelativeLayout>

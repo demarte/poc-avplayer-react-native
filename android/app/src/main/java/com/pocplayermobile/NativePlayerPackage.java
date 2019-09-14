@@ -10,6 +10,9 @@ import java.util.List;
 
 public class NativePlayerPackage implements ReactPackage {
 
+    private NativePlayerManager nativePlayerManager;
+    private MainApplication application;
+
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         return Collections.emptyList();
@@ -17,8 +20,19 @@ public class NativePlayerPackage implements ReactPackage {
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Collections.singletonList(
-                new NativePlayerManager()
+                nativePlayerManager = new NativePlayerManager(application)
         );
     }
 
+    public void setApplication(MainApplication application) {
+        this.application = application;
+    }
+
+    public void updatePosition() {
+        nativePlayerManager.updatePosition();
+    }
+
+    public void updatePlaying() {
+        nativePlayerManager.updatePlaying();
+    }
 }

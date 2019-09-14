@@ -17,7 +17,7 @@
 //   }
 // }
 
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import { StyleSheet, View, Dimensions, Platform, Text } from "react-native";
 import JwPlayerWrapperView from "./src/JwPlayerWrapperView";
 import AndroidNativePlayer from "./src/AndroidNativePlayer";
@@ -40,18 +40,41 @@ export default class App extends Component {
   renderPlayer() {
     const { heightX, widthX } = this.state;
     if (Platform.OS === "ios") {
-      return <JwPlayerWrapperView style={{ height: heightX, width: widthX }} />;
+      return (
+        <View style={{ paddingHorizontal: 30 }}>
+          <Text style={{ flex: 2 }}>Hello</Text>
+          <JwPlayerWrapperView
+            style={{
+              height: heightX,
+              width: widthX,
+              flex: 1
+              // paddingHorizontal: 17
+            }}
+          />
+        </View>
+      );
     } else {
-      return <AndroidNativePlayer style={{ height: heightX, width: widthX }} />;
+      return (
+        <AndroidNativePlayer
+          // supportedOrientations={['portrait', 'landscape']}
+          style={{
+            height: 800,
+            width: widthX,
+            flex: 0
+          }}
+        />
+      );
     }
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5FCFF"
+    backgroundColor: "#F5FCFF",
+    paddingVertical: 50,
+    paddingHorizontal: 100
   }
 });
