@@ -30,6 +30,7 @@ RCT_EXPORT_MODULE();
 }
 
 RCT_EXPORT_VIEW_PROPERTY(file, NSString);
+RCT_EXPORT_VIEW_PROPERTY(onEnd, RCTBubblingEventBlock)
 //RCT_EXPORT_VIEW_PROPERTY(onFullScreen, RCTDirectEventBlock);
 
 

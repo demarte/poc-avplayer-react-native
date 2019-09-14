@@ -18,18 +18,27 @@
   
   RCTEventDispatcher *_eventDispatcher;
 //  JWConfig *config;
-  NSURL *videoURL;
-  AVPlayer *player;
+  NSURL *url;
 }
 
 - (void)setFile:(NSString *)file
 {
   if (![file isEqual:_file]) {
-    videoURL = [NSURL URLWithString: file];
-    player = [AVPlayer playerWithURL:videoURL];
-    self.playerViewController = [AVPlayerViewController new];
-    self.playerViewController.player = player;
+    url = [NSURL URLWithString: file];
+//    player = [AVPlayer playerWithURL:videoURL];
+    
+    self.containerViewController = [ContainerViewController new];
+    self.containerViewController.videoURL = url;
+    
+//    self.playerViewController = [AVPlayerViewController new];
+//    self.playerViewController.player = player;
+    
+     [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(playerItemDidReachEnd:) name:AVPlayerItemDidPlayToEndTimeNotification object: self.containerViewController.player.currentItem];
   }
+}
+
+- (void)playerItemDidReachEnd:(NSNotification*)notification {
+  self.onEnd(@{});
 }
 
 - (instancetype)initWithEventDispatcher:(RCTEventDispatcher *)eventDispatcher
@@ -56,12 +65,16 @@
 -(void)layoutSubviews
 {
   [super layoutSubviews];
-  self.playerViewController.view.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleWidth;
-  self.playerViewController.view.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleWidth;
-  self.playerViewController.view.frame = self.bounds;
-  self.playerViewController.view.frame =  CGRectMake(0, 0, CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds));
+//  self.playerViewController.view.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleWidth;
+//  self.playerViewController.view.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleWidth;
+//  self.playerViewController.view.frame = self.bounds;
+  self.containerViewController.view.frame = self.bounds;
+//  self.playerViewController.view.frame =  CGRectMake(0, 0, CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds));
   [self setAutoresizesSubviews:TRUE];
-  [self addSubview:self.playerViewController.view];
+  
+//  [self addSubview:self.playerViewController.view];
+  [self addSubview:self.containerViewController.view];
+  
 //  self.player.forceFullScreenOnLandscape = YES;
 //  self.player.forceLandscapeOnFullScreen = YES;
 //  self.player.view.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleWidth;

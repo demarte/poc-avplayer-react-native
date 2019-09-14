@@ -41,16 +41,24 @@ export default class App extends Component {
     const { heightX, widthX } = this.state;
     if (Platform.OS === "ios") {
       return (
-        <View style={{ paddingHorizontal: 30 }}>
-          <Text style={{ flex: 2 }}>Hello</Text>
+        <View>
           <JwPlayerWrapperView
             style={{
               height: heightX,
-              width: widthX,
-              flex: 1
+              width: widthX
+              // flex: 1
               // paddingHorizontal: 17
             }}
+            onEnd={() => console.log("here I go")}
           />
+          {/* <JwPlayerWrapperView
+            style={{
+              height: heightX,
+              width: widthX
+              // flex: 1
+              // paddingHorizontal: 17
+            }}
+          /> */}
         </View>
       );
     } else {
@@ -73,7 +81,7 @@ const styles = StyleSheet.create({
     // flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5FCFF",
+    backgroundColor: "#ffffff",
     paddingVertical: 50,
     paddingHorizontal: 100
   }

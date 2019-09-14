@@ -23,6 +23,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		2C04D9C4232D148000998540 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C04D9C3232D148000998540 /* ContainerViewController.m */; };
 		2C79F33C2310661500125E94 /* JwPlayerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C79F33B2310661500125E94 /* JwPlayerWrapper.m */; };
 		2C79F33F231066B700125E94 /* JwPlayerWrapperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C79F33E231066B700125E94 /* JwPlayerWrapperManager.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -345,6 +346,8 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2333D253FD5C22F1F003C703 /* Pods-pocplayermobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocplayermobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-pocplayermobile-tvOS/Pods-pocplayermobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		23B1F5DCF3A3C6300C14A378 /* libPods-pocplayermobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocplayermobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C04D9C2232D148000998540 /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		2C04D9C3232D148000998540 /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 		2C6C9E0AAE094075798B3F10 /* Pods-pocplayermobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocplayermobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-pocplayermobile-tvOS/Pods-pocplayermobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2C79F28523102B3500125E94 /* JWPlayer_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWPlayer_iOS_SDK.framework; path = "../../../../Downloads/jwplayer-ios-sdk-3.6.1+100/Common/iphoneos/Release-iphoneos/JWPlayer_iOS_SDK.framework"; sourceTree = "<group>"; };
 		2C79F33A2310661500125E94 /* JwPlayerWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JwPlayerWrapper.h; sourceTree = "<group>"; };
@@ -517,10 +520,12 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				2C79F33A2310661500125E94 /* JwPlayerWrapper.h */,
-				2C79F33B2310661500125E94 /* JwPlayerWrapper.m */,
 				2C79F33D231066B700125E94 /* JwPlayerWrapperManager.h */,
 				2C79F33E231066B700125E94 /* JwPlayerWrapperManager.m */,
+				2C79F33A2310661500125E94 /* JwPlayerWrapper.h */,
+				2C79F33B2310661500125E94 /* JwPlayerWrapper.m */,
+				2C04D9C2232D148000998540 /* ContainerViewController.h */,
+				2C04D9C3232D148000998540 /* ContainerViewController.m */,
 			);
 			name = pocplayermobile;
 			sourceTree = "<group>";
@@ -1256,6 +1261,7 @@
 				2C79F33F231066B700125E94 /* JwPlayerWrapperManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				2C79F33C2310661500125E94 /* JwPlayerWrapper.m in Sources */,
+				2C04D9C4232D148000998540 /* ContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
